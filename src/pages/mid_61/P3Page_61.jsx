@@ -3,7 +3,7 @@ import MenuItem_61 from '../../components/mid_xx/MenuItem_61'
 import image1 from './images/item-1.jpeg'
 import image2 from './images/item-2.jpeg'
 import image3 from './images/item-3.jpeg'
-import db from '../../db/clientSupabase'
+import supabase from '../../db/clientSupabase'
 let api_url = 'http://localhost:3000/api/menu_61'
 const P3Page_61 = () => {
   const [menu, setMenu] = useState([])
@@ -11,7 +11,7 @@ const P3Page_61 = () => {
 
   const fetchBlogsFromNodeServer = async () => {
     try {
-      let { data, error } = await supabase.from('blog_xx').select('*')
+      let { data, error } = await supabase.from('menu_61').select('*')
       // const response = await fetch(api_url)
       // const data = await response.json()
       console.log('supabase blogs', data)
