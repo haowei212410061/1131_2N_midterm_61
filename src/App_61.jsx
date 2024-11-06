@@ -21,9 +21,9 @@ const App_61 = () => {
         <Route path='/supa2_xx' element={<BlogSupaPage2_xx />} />
       </Routes>
       <Routes>
-        <Route path='/mid_xx/p1_61' element={<MidP1Page_61 />} />
-        <Route path='/mid_xx/p2_61' element={<MidP2Page_61 />} />
-        <Route path='/mid_xx/p3_xx' element={<MidP3Page_xx />} />
+        <Route path='/mid_61/p1_61' element={<MidP1Page_61 />} />
+        <Route path='/mid_61/p2_61' element={<MidP2Page_61 />} />
+        <Route path='/mid_61/p3_xx' element={<MidP3Page_xx />} />
       </Routes>
     </BrowserRouter>
   )
