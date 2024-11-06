@@ -20,7 +20,7 @@ const App_61 = () => {
         <Route path='/supa2_xx' element={<BlogSupaPage2_xx />} />
       </Routes>
       <Routes>
-        <Route path='/mid_61/p_61' element={<MidP1Page_61 />} />
+        <Route path='/mid_61/p3_61' element={<MidP1Page_61 />} />
       </Routes>
     </BrowserRouter>
   )
