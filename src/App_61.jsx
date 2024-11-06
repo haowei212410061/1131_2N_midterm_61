@@ -21,7 +21,6 @@ const App_61 = () => {
       </Routes>
       <Routes>
         <Route path='/mid_61/p1_61' element={<MidP1Page_61 />} />
-        <Route path='/supa_61' element={<MidP2Page_61 />} />
         <Route path='/mid_61/p3_61' element={<MidP2Page_61 />} />
       </Routes>
     </BrowserRouter>
